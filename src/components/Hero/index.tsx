@@ -1,0 +1,21 @@
+import React from 'react'
+import { Container } from './styles'
+
+export interface HeroProps {
+  image?: string
+  title: string
+  children: React.ReactNode
+}
+
+export const Hero = ({ image, title, children }: HeroProps) => {
+  return (
+    <>
+      <Container image={image}>
+        <div>
+          <h1>{title}</h1>
+          {children}
+        </div>
+      </Container>
+    </>
+  )
+}
