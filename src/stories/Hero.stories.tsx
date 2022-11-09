@@ -23,7 +23,7 @@ Usage.args = {
 
 export const UsageWithImage = Template.bind({})
 UsageWithImage.args = {
-  image: 'https://source.unsplash.com/random/1600x900',
+  image: 'url(https://source.unsplash.com/random/1600x900), rgba(0, 0, 0, 0.8)',
   title: 'Hello World',
   children: (
     <ul>

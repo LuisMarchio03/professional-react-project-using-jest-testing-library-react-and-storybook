@@ -12,8 +12,7 @@ export const Hero = ({ image = '', title, children }: HeroProps) => {
     <>
       <Container
         css={{
-          // backgroundImage: 'url(https://source.unsplash.com/random/1600x900)',
-          backgroundImage: `url(${image})`,
+          background: image,
         }}
       >
         <div>
