@@ -17,4 +17,8 @@ export const globalStyles = globalCss({
     fontFamily: '$poppins, sans-serif',
     fontWeight: 300,
   },
+
+  ul: {
+    listStyle: 'none',
+  },
 })

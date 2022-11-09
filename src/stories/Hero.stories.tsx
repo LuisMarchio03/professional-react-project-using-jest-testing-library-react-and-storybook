@@ -1,6 +1,10 @@
 import React from 'react'
+
 import { ComponentStory, ComponentMeta } from '@storybook/react'
 import { Hero } from '../components/Hero'
+
+import { globalStyles } from '../styles/global'
+globalStyles()
 
 export default {
   title: 'Hero',
