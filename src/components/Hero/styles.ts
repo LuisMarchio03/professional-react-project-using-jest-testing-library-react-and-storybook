@@ -1,12 +1,10 @@
 import { styled } from '../../styles'
 
-interface IStylesContainerProps {
-  image?: string
-}
-
 export const Container = styled('main', {
-  background: `url(${(props: IStylesContainerProps) =>
-    props.image}) no-repeat center`,
+  backgroundImage: 'url(https://source.unsplash.com/random/1600x900)',
+  backgroundSize: 'cover',
+  backgroundPosition: 'center',
+  height: '100vh',
 
   h1: {
     color: 'red',
