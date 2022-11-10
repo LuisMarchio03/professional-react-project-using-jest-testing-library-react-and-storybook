@@ -31,9 +31,9 @@ export const {
   },
 
   media: {
-    bp1: '(min-width: 640px)',
-    bp2: '(min-width: 768px)',
-    bp3: '(min-width: 1024px)',
-    bp4: '(min-width: 1200px)',
+    bp_sm: '(min-width: 576px)',
+    bp_md: '(min-width: 768px)',
+    bp_lg: '(min-width: 992px)',
+    bp_xl: '(min-width: 1200px)',
   },
 })

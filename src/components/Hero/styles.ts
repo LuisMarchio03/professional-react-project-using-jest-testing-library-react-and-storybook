@@ -16,11 +16,11 @@ export const Container = styled('main', {
     width: '100%',
     padding: '0  8px',
 
-    '@bp2': {
+    '@bp_md': {
       padding: '0  16px',
     },
 
-    '@bp4': {
+    '@bp_xl': {
       width: '1140px',
       margin: '0 auto',
     },
