@@ -13,8 +13,9 @@ export const {
   theme: {
     colors: {
       white: '#FFF',
-
       gray600: '#212121',
+
+      yellow500: '#ffc107',
     },
 
     fontSizes: {
