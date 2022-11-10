@@ -3,7 +3,7 @@ import { Container } from './styles'
 
 export interface HeroProps {
   image: string
-  title: string
+  title: React.ReactNode | string
   children: React.ReactNode
 }
 

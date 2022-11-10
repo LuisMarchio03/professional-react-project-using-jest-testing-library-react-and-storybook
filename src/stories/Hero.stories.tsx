@@ -29,7 +29,11 @@ export const UsageWithImage = Template.bind({})
 UsageWithImage.args = {
   image:
     'url(https://viagemeturismo.abril.com.br/wp-content/uploads/2021/04/road-3114475__340.jpg), rgba(0, 0, 0, 0.5)',
-  title: 'Hello World',
+  title: (
+    <>
+      Ganhe sua <strong>liberdade</strong> de ir e vir
+    </>
+  ),
   children: (
     <ul>
       <li>One</li>
