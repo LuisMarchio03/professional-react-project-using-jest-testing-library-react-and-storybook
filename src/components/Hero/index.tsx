@@ -3,11 +3,10 @@ import { Container } from './styles'
 
 export interface HeroProps {
   image: string
-  title: React.ReactNode | string
   children: React.ReactNode
 }
 
-export const Hero = ({ image = '', title, children }: HeroProps) => {
+export const Hero = ({ image = '', children }: HeroProps) => {
   return (
     <>
       <Container
@@ -15,10 +14,7 @@ export const Hero = ({ image = '', title, children }: HeroProps) => {
           background: image,
         }}
       >
-        <div>
-          <h1>{title}</h1>
-          {children}
-        </div>
+        <div>{children}</div>
       </Container>
     </>
   )
