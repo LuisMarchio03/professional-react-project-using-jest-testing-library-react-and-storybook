@@ -29,53 +29,53 @@ export const globalStyles = globalCss({
   },
 
   h1: {
-    fontSize: '2.5rem',
+    fontSize: '$4xl',
 
     '@bp_lg': {
-      fontSize: '3.75rem',
+      fontSize: '$6xl',
     },
   },
 
   h2: {
-    fontSize: '2rem',
+    fontSize: '@3xl',
 
     '@bp_lg': {
-      fontSize: '3.125rem',
+      fontSize: '$5xl',
     },
   },
 
   h3: {
-    fontSize: '1.9rem',
+    fontSize: '$2xl',
 
     '@bp_lg': {
-      fontSize: '2.5rem',
+      fontSize: '$4xl',
     },
   },
 
   h4: {
-    fontSize: '1.3rem',
+    fontSize: '$xl',
     fontWeight: 600,
 
     '@bp_lg': {
-      fontSize: '2.125rem',
+      fontSize: '$3xl',
     },
   },
 
   h5: {
-    fontSize: '1.2rem',
+    fontSize: '$lg',
     fontWeight: 300,
 
     '@bp_lg': {
-      fontSize: '1.5rem',
+      fontSize: '$2xl',
     },
   },
 
   h6: {
-    fontSize: '1.1rem',
+    fontSize: '$md',
     fontWeight: 600,
 
     '@bp_lg': {
-      fontSize: '1.25rem',
+      fontSize: '$xl',
     },
   },
 })
