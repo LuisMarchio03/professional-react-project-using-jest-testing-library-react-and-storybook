@@ -8,7 +8,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "dependencies": {
     "@stitches/react": "^1.2.8",
@@ -19,7 +21,6 @@
     "styled-components": "^5.3.6"
   },
   "devDependencies": {
-    "@babel/core": "^7.19.6",
     "@rocketseat/eslint-config": "^1.1.3",
     "@storybook/addon-actions": "^6.5.13",
     "@storybook/addon-essentials": "^6.5.13",
@@ -32,9 +33,30 @@
     "@types/react": "^18.0.22",
     "@types/react-dom": "^18.0.7",
     "@vitejs/plugin-react": "^2.2.0",
-    "babel-loader": "^8.2.5",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.2.0",
+    "@types/jest": "^27.0.1",
+    "@types/testing-library__jest-dom": "^5.14.1",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.5",
     "eslint": "^8.26.0",
+    "identity-obj-proxy": "^3.0.0",
     "typescript": "^4.6.4",
     "vite": "^3.2.0"
+  },
+  "jest": {
+    "clearMocks": true,
+    "globals": {
+      "ts-jest": {
+        "tsconfig": "tsconfig.json"
+      }
+    },
+    "setupFilesAfterEnv": [
+      "<rootDir>/jest.setup.ts"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "ts-jest"
+    },
+    "testEnvironment": "jsdom"
   }
 }
