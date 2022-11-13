@@ -13,6 +13,7 @@ export const Hero = ({ image = '', children }: HeroProps) => {
         css={{
           background: image,
         }}
+        data-testid="hero"
       >
         <div>{children}</div>
       </Container>

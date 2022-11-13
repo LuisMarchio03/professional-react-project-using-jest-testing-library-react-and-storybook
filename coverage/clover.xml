@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1668357827399" clover="3.2.0">
+  <project timestamp="1668357827399" name="All files">
+    <metrics statements="8" coveredstatements="8" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="1" elements="10" coveredelements="9" complexity="0" loc="8" ncloc="8" packages="2" files="3" classes="3"/>
+    <package name="components.Hero">
+      <metrics statements="6" coveredstatements="6" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.tsx" path="/home/luis/projects/udemy-completed-course-reactjs-01/src/components/Hero/index.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="9" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="10" count="2" type="stmt"/>
+      </file>
+      <file name="styles.ts" path="/home/luis/projects/udemy-completed-course-reactjs-01/src/components/Hero/styles.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="styles">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="/home/luis/projects/udemy-completed-course-reactjs-01/src/styles/index.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

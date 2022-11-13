@@ -10,7 +10,8 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "test:cov": "jest --coverage"
   },
   "dependencies": {
     "@stitches/react": "^1.2.8",
@@ -30,17 +31,18 @@
     "@storybook/builder-vite": "^0.2.5",
     "@storybook/react": "^6.5.13",
     "@storybook/testing-library": "^0.0.13",
-    "@types/react": "^18.0.22",
-    "@types/react-dom": "^18.0.7",
-    "@vitejs/plugin-react": "^2.2.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
     "@types/jest": "^27.0.1",
+    "@types/react": "^18.0.22",
+    "@types/react-dom": "^18.0.7",
     "@types/testing-library__jest-dom": "^5.14.1",
-    "jest": "^27.0.6",
-    "ts-jest": "^27.0.5",
+    "@vitejs/plugin-react": "^2.2.0",
     "eslint": "^8.26.0",
     "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.0.6",
+    "jest-stitches": "^1.0.4",
+    "ts-jest": "^27.0.5",
     "typescript": "^4.6.4",
     "vite": "^3.2.0"
   },
