@@ -4,6 +4,8 @@ module.exports = {
     '../src/stories/*.stories.@(js|jsx|ts|tsx)',
     '../src/components/**/stories/*.stories.mdx',
     '../src/components/**/stories/*.stories.@(js|jsx|ts|tsx)',
+    '../src/styles/**/*.stories.mdx',
+    '../src/styles/**/*.stories.@(js|jsx|ts|tsx)',
   ],
   addons: [
     '@storybook/addon-links',
@@ -11,6 +13,12 @@ module.exports = {
     '@storybook/addon-interactions',
     'storybook-dark-mode',
     '@storybook/addon-viewport',
+    {
+      name: '@storybook/addon-docs',
+      options: {
+        configureJSX: true,
+      },
+    },
     '@storybook/addon-knobs',
   ],
   framework: '@storybook/react',
