@@ -2,14 +2,14 @@ import React from 'react'
 
 import { ComponentStory, ComponentMeta } from '@storybook/react'
 
-import { Hero } from '../components/Hero'
-import { Title } from '../components/Title'
+import { Hero } from '..'
+import { Title } from '../../Title'
 
-import { globalStyles } from '../styles/global'
+import { globalStyles } from '../../../styles/global'
 globalStyles()
-Title
+
 export default {
-  title: 'Hero',
+  title: 'Components/Hero',
   component: Hero,
 } as ComponentMeta<typeof Hero>
 
