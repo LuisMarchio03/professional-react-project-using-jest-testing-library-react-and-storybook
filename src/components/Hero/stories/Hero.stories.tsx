@@ -15,21 +15,21 @@ export default {
 
 const Template: ComponentStory<typeof Hero> = (args) => <Hero {...args} />
 
-export const Usage = Template.bind({})
-Usage.args = {
-  children: (
-    <>
-      <Title>
-        Ganhe sua <strong>liberdade</strong> <br /> para ir e vir
-      </Title>
-      <ul>
-        <li>One</li>
-        <li>Two</li>
-        <li>Three</li>
-      </ul>
-    </>
-  ),
-}
+// export const Usage = Template.bind({})
+// Usage.args = {
+//   children: (
+//     <>
+//       <Title>
+//         Ganhe sua <strong>liberdade</strong> <br /> para ir e vir
+//       </Title>
+//       <ul>
+//         <li>One</li>
+//         <li>Two</li>
+//         <li>Three</li>
+//       </ul>
+//     </>
+//   ),
+// }
 
 export const UsageWithImage = Template.bind({})
 UsageWithImage.args = {
