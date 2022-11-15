@@ -6,7 +6,7 @@ export interface HeroProps {
   children: React.ReactNode
 }
 
-export const Hero = ({ image = '', children }: HeroProps) => {
+export const Hero = ({ image, children }: HeroProps) => {
   return (
     <>
       <Container
