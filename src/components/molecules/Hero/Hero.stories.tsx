@@ -10,7 +10,7 @@ import { globalStyles } from '../../../styles/global'
 globalStyles()
 
 export default {
-  title: 'Components/Hero',
+  title: 'Components/Molecules/Hero',
   component: Hero,
 } as ComponentMeta<typeof Hero>
 

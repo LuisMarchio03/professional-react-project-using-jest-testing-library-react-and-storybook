@@ -7,7 +7,7 @@ import { globalStyles } from '../../../styles/global'
 globalStyles()
 
 export default {
-  title: 'Components/Title',
+  title: 'Components/Atoms/Title',
   component: Title,
 } as ComponentMeta<typeof Title>
 

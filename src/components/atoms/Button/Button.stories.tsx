@@ -17,7 +17,7 @@ const Container = styled('div', {
 const events = actions({ onClick: 'clicked' })
 
 export default {
-  title: 'Components/Button',
+  title: 'Components/Atoms/Button',
   component: Button,
 } as ComponentMeta<typeof Button>
 
