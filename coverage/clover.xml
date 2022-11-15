@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1668359713537" clover="3.2.0">
-  <project timestamp="1668359713537" name="All files">
-    <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="2" coveredelements="2" complexity="0" loc="2" ncloc="2" packages="1" files="1" classes="1"/>
+<coverage generated="1668471060575" clover="3.2.0">
+  <project timestamp="1668471060575" name="All files">
+    <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="4" coveredelements="4" complexity="0" loc="4" ncloc="4" packages="1" files="2" classes="2"/>
     <file name="global.ts" path="/home/luis/projects/udemy-completed-course-reactjs-01/src/styles/global.ts">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <line num="1" count="1" type="stmt"/>
       <line num="3" count="1" type="stmt"/>
+    </file>
+    <file name="index.ts" path="/home/luis/projects/udemy-completed-course-reactjs-01/src/styles/index.ts">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="3" type="stmt"/>
+      <line num="3" count="3" type="stmt"/>
     </file>
   </project>
 </coverage>
