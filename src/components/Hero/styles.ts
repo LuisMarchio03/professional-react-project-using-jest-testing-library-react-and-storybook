@@ -35,5 +35,9 @@ export const Container = styled('main', {
         },
       },
     },
+
+    button: {
+      marginTop: '1.2rem',
+    },
   },
 })
