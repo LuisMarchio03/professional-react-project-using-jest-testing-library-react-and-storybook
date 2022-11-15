@@ -1,7 +1,7 @@
 import React from 'react'
 import { fireEvent, render } from '@testing-library/react'
 
-import { Button } from '../../components/Button'
+import { Button } from '../../components/atoms/Button'
 
 test('renders a text', () => {
   const { getByText } = render(<Button>Click here</Button>)

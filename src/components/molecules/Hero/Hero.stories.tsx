@@ -2,9 +2,9 @@ import React from 'react'
 
 import { ComponentStory, ComponentMeta } from '@storybook/react'
 
-import { Hero } from '..'
-import { Title } from '../../Title'
-import { Button } from '../../Button'
+import { Hero } from '.'
+import { Title } from '../../atoms/Title'
+import { Button } from '../../atoms/Button'
 
 import { globalStyles } from '../../../styles/global'
 globalStyles()

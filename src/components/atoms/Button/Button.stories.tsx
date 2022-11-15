@@ -2,7 +2,7 @@ import React from 'react'
 import { ComponentStory, ComponentMeta } from '@storybook/react'
 import { actions } from '@storybook/addon-actions'
 
-import { Button } from '..'
+import { Button } from '.'
 
 import { globalStyles } from '../../../styles/global'
 import { styled } from '../../../styles'

@@ -1,7 +1,7 @@
 import React from 'react'
 import { render } from '@testing-library/react'
 
-import { Hero } from '../../components/Hero'
+import { Hero } from '../../components/molecules/Hero'
 
 test('renders Hero with children', () => {
   const { getByText } = render(

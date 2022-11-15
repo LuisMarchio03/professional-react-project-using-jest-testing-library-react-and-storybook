@@ -1,7 +1,7 @@
 import React from 'react'
-
 import { ComponentStory, ComponentMeta } from '@storybook/react'
-import { Title } from '..'
+
+import { Title } from '.'
 
 import { globalStyles } from '../../../styles/global'
 globalStyles()
