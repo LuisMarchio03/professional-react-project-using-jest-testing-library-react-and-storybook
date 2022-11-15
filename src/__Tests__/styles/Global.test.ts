@@ -6,7 +6,7 @@ describe('Global Styles', () => {
     expect(globalStyles).toMatchSnapshot()
   })
 
-  test('should them to match snapshot', () => {
+  test('should the to match snapshot', () => {
     expect(theme).toMatchSnapshot()
   })
 })
