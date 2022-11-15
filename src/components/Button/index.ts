@@ -16,11 +16,12 @@ export const Button = styled('button', {
         border: '2px solid $yellow500',
         color: '$gray600',
 
-        '&:hover': {
+        '&:hover:enabled': {
           backgroundColor: '$yellow700',
         },
 
         '&:disabled': {
+          opacity: 0.7,
           backgroundColor: '$yellow700',
           cursor: 'not-allowed',
         },
@@ -30,12 +31,13 @@ export const Button = styled('button', {
         border: '2px solid $yellow500',
         color: '$yellow500',
 
-        '&:hover': {
+        '&:hover:enabled': {
           color: '$yellow700',
           border: '2px solid $yellow700',
         },
 
         '&:disabled': {
+          opacity: 0.7,
           color: '$yellow700',
           border: '2px solid $yellow700',
           cursor: 'not-allowed',
@@ -46,12 +48,13 @@ export const Button = styled('button', {
         border: '2px solid $red500',
         color: '$red500',
 
-        '&:hover': {
+        '&:hover:enabled': {
           color: '$red700',
           border: '2px solid $red700',
         },
 
         '&:disabled': {
+          opacity: 0.7,
           color: '$red700',
           border: '2px solid $red700',
           cursor: 'not-allowed',

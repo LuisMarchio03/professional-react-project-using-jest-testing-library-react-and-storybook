@@ -1,5 +1,6 @@
 import React from 'react'
 import { ComponentStory, ComponentMeta } from '@storybook/react'
+import { actions } from '@storybook/addon-actions'
 
 import { Button } from '..'
 
@@ -13,6 +14,8 @@ const Container = styled('div', {
   gap: '10px',
 })
 
+const events = actions({ onClick: 'clicked' })
+
 export default {
   title: 'Components/Button',
   component: Button,
@@ -20,7 +23,7 @@ export default {
 
 export const UsagePrimary: ComponentStory<typeof Button> = (args) => (
   <Container>
-    <Button type="button" children="Primary" variant="primary" />
+    <Button {...events} type="button" children="Primary" variant="primary" />
     <Button
       type="button"
       children="Primary - Disabled"
@@ -32,7 +35,12 @@ export const UsagePrimary: ComponentStory<typeof Button> = (args) => (
 
 export const UsageSecondary: ComponentStory<typeof Button> = () => (
   <Container>
-    <Button type="button" children="Secondary" variant="secondary" />
+    <Button
+      {...events}
+      type="button"
+      children="Secondary"
+      variant="secondary"
+    />
     <Button
       type="button"
       children="Secondary - Disabled"
@@ -44,7 +52,7 @@ export const UsageSecondary: ComponentStory<typeof Button> = () => (
 
 export const UsageDanger: ComponentStory<typeof Button> = () => (
   <Container>
-    <Button type="button" children="Danger" variant="danger" />
+    <Button {...events} type="button" children="Danger" variant="danger" />
     <Button
       type="button"
       children="Danger - Disabled"
