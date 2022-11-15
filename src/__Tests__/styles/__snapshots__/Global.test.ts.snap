@@ -1,3 +1,149 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Global Styles should render global styles 1`] = `[Function]`;
+
+exports[`Global Styles should them to match snapshot 1`] = `
+Object {
+  "className": "t-mBMh",
+  "colors": Object {
+    "gray600": F {
+      "prefix": "",
+      "scale": "colors",
+      "token": "gray600",
+      "value": "#212121",
+    },
+    "red500": F {
+      "prefix": "",
+      "scale": "colors",
+      "token": "red500",
+      "value": "#ff3d00",
+    },
+    "red700": F {
+      "prefix": "",
+      "scale": "colors",
+      "token": "red700",
+      "value": "#b22a00",
+    },
+    "white": F {
+      "prefix": "",
+      "scale": "colors",
+      "token": "white",
+      "value": "#FFF",
+    },
+    "yellow300": F {
+      "prefix": "",
+      "scale": "colors",
+      "token": "yellow300",
+      "value": "#fff350",
+    },
+    "yellow500": F {
+      "prefix": "",
+      "scale": "colors",
+      "token": "yellow500",
+      "value": "#ffc107",
+    },
+    "yellow700": F {
+      "prefix": "",
+      "scale": "colors",
+      "token": "yellow700",
+      "value": "#c79100",
+    },
+  },
+  "fontSizes": Object {
+    "2xl": F {
+      "prefix": "",
+      "scale": "fontSizes",
+      "token": "2xl",
+      "value": "1.5rem",
+    },
+    "3xl": F {
+      "prefix": "",
+      "scale": "fontSizes",
+      "token": "3xl",
+      "value": "2rem",
+    },
+    "4xl": F {
+      "prefix": "",
+      "scale": "fontSizes",
+      "token": "4xl",
+      "value": "2.25rem",
+    },
+    "5xl": F {
+      "prefix": "",
+      "scale": "fontSizes",
+      "token": "5xl",
+      "value": "3.125rem",
+    },
+    "6xl": F {
+      "prefix": "",
+      "scale": "fontSizes",
+      "token": "6xl",
+      "value": "3.75rem",
+    },
+    "7xl": F {
+      "prefix": "",
+      "scale": "fontSizes",
+      "token": "7xl",
+      "value": "4.5rem",
+    },
+    "8xl": F {
+      "prefix": "",
+      "scale": "fontSizes",
+      "token": "8xl",
+      "value": "6rem",
+    },
+    "9xl": F {
+      "prefix": "",
+      "scale": "fontSizes",
+      "token": "9xl",
+      "value": "8rem",
+    },
+    "lg": F {
+      "prefix": "",
+      "scale": "fontSizes",
+      "token": "lg",
+      "value": "1.125rem",
+    },
+    "md": F {
+      "prefix": "",
+      "scale": "fontSizes",
+      "token": "md",
+      "value": "1rem",
+    },
+    "sm": F {
+      "prefix": "",
+      "scale": "fontSizes",
+      "token": "sm",
+      "value": "0.875rem",
+    },
+    "xl": F {
+      "prefix": "",
+      "scale": "fontSizes",
+      "token": "xl",
+      "value": "1.25rem",
+    },
+    "xs": F {
+      "prefix": "",
+      "scale": "fontSizes",
+      "token": "xs",
+      "value": "0.75rem",
+    },
+  },
+  "fonts": Object {
+    "poppins": F {
+      "prefix": "",
+      "scale": "fonts",
+      "token": "poppins",
+      "value": "Poppins",
+    },
+    "roboto": F {
+      "prefix": "",
+      "scale": "fonts",
+      "token": "roboto",
+      "value": "Roboto",
+    },
+  },
+  "selector": ".t-mBMh",
+  "toString": [Function],
+}
+`;
