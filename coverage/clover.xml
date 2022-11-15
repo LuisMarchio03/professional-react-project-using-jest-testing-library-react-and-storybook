@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1668471710261" clover="3.2.0">
-  <project timestamp="1668471710261" name="All files">
+<coverage generated="1668473108271" clover="3.2.0">
+  <project timestamp="1668473108271" name="All files">
     <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="4" coveredelements="4" complexity="0" loc="4" ncloc="4" packages="1" files="2" classes="2"/>
     <file name="global.ts" path="/home/luis/projects/udemy-completed-course-reactjs-01/src/styles/global.ts">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
