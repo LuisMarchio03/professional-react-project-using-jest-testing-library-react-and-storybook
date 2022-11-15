@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Danger] variants button 1`] = `
+<DocumentFragment>
+  <button
+    class="c-jGmEde c-jGmEde-dIixzL-variant-danger"
+  />
+</DocumentFragment>
+`;
+
+exports[`[Primary] variants button 1`] = `
+<DocumentFragment>
+  <button
+    class="c-jGmEde c-jGmEde-kaJcgy-variant-primary"
+  />
+</DocumentFragment>
+`;
+
+exports[`[Secondary] variants button 1`] = `
+<DocumentFragment>
+  <button
+    class="c-jGmEde c-jGmEde-jOKMJT-variant-secondary"
+  />
+</DocumentFragment>
+`;

@@ -16,3 +16,27 @@ test('trigger event on click', () => {
 
   expect(handleClick).toBeCalled()
 })
+
+test('should not be able to trigger event on click with button disabled', () => {
+  const handleClick = jest.fn()
+  const { getByRole } = render(<Button disabled onClick={handleClick} />)
+
+  fireEvent.click(getByRole('button'))
+
+  expect(handleClick).not.toBeCalled()
+})
+
+test('[Primary] variants button', () => {
+  const { asFragment } = render(<Button variant="primary" />)
+  expect(asFragment()).toMatchSnapshot()
+})
+
+test('[Secondary] variants button', () => {
+  const { asFragment } = render(<Button variant="secondary" />)
+  expect(asFragment()).toMatchSnapshot()
+})
+
+test('[Danger] variants button', () => {
+  const { asFragment } = render(<Button variant="danger" />)
+  expect(asFragment()).toMatchSnapshot()
+})
