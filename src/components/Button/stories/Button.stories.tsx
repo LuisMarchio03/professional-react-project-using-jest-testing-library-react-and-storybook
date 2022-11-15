@@ -17,10 +17,12 @@ export const UsagePrimary = Template.bind({})
 UsagePrimary.args = {
   type: 'button',
   children: <>Click me</>,
+  variant: 'primary',
 }
 
 export const UsageSecondary = Template.bind({})
 UsageSecondary.args = {
   type: 'button',
   children: <>Click me</>,
+  variant: 'secondary',
 }

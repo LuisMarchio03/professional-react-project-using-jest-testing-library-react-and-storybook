@@ -7,7 +7,18 @@ export const Button = styled('button', {
   padding: '12px 36px',
   cursor: 'pointer',
 
-  backgroundColor: '$yellow500',
-  border: '2px solid $yellow500',
-  color: '$gray600',
+  variants: {
+    variant: {
+      primary: {
+        backgroundColor: '$yellow500',
+        border: '2px solid $yellow500',
+        color: '$gray600',
+      },
+      secondary: {
+        backgroundColor: 'transparent',
+        border: '2px solid $yellow500',
+        color: '$yellow500',
+      },
+    },
+  },
 })
